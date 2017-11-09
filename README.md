@@ -11,7 +11,7 @@ This Repository will contain my content for the AE2 part of the Web Site Design 
 
 ### HTML
 
-* Include Key Tags such as <!DOCTYPE> & <meta name="viewport">.
+* Include Key Tags such as <!DOCTYPE>.
 * White Spacing.
 * Comments.
 * Indentation.
