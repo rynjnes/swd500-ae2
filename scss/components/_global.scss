@@ -1,1 +1,11 @@
+#logo {
+        transform: scale(1);
+        transition: ease 0.25s;
+        width: 35px;
+        cursor: pointer;
+}
 
+#logo:hover {
+        transform: scale(1.0);
+        transition: ease 0.25s;
+}

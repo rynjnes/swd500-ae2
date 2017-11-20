@@ -1,5 +1,29 @@
 @import 'abstract/variables';
 
+@import 'base/typography';
+
+@import 'components/animations';
+@import 'components/footer';
+@import 'components/gallery';
+@import 'components/global';
+@import 'components/header';
+@import 'components/mobilenav';
+@import 'components/navigation';
+@import 'components/skills';
+
+@import 'layout/media-queries/2560';
+@import 'layout/media-queries/1920';
+@import 'layout/media-queries/1440';
+@import 'layout/media-queries/1024';
+@import 'layout/media-queries/768';
+@import 'layout/media-queries/425';
+@import 'layout/media-queries/375';
+@import 'layout/media-queries/320';
+
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/gallery';
+
 body {
         margin: 0 auto;
         background: $background;
