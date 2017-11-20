@@ -32,9 +32,25 @@
   transform: scale(1);
   transition: ease 0.25s; }
 
+#navigation {
+  font-family: "Rozha One", serif; }
+
+#navigation a {
+  display: inline;
+  color: #ffffff;
+  text-decoration: none;
+  transition: ease 0.25s; }
+
+#navigation a:hover {
+  display: inline;
+  color: #fed040;
+  transition: ease 0.25s; }
+
 body {
   margin: 0 auto;
-  background: #fefefe; }
+  background: #262938;
+  font-family: "Rokkitt", serif;
+  text-align: center; }
 
 /* a var for max width */
 .col {
@@ -42,7 +58,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30px; }
+  height: 30px;
+  padding: 10px 0px 10px 0px; }
 
 .row {
   width: 100%;

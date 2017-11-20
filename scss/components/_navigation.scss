@@ -1,1 +1,16 @@
+#navigation {
+        font-family: $rozha;
+}
 
+#navigation a {
+        display: inline;
+        color: $white;
+        text-decoration: none;
+        transition: ease 0.25s;
+}
+
+#navigation a:hover {
+        display: inline;
+        color: $gold;
+        transition: ease 0.25s;
+}
