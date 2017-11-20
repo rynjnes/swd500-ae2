@@ -1,1 +1,23 @@
+.about-link {
+        color: $lightgrey;
+        background: $white;
+        font-weight: 400;
+        text-decoration: none;
+        transition: ease 0.25s;
+        font-weight: bold;
+}
 
+.about-link:hover {
+        display: inline;
+        color: $gold;
+        transition: ease 0.25s;
+        background: transparent;
+}
+
+.tagline {
+        width: 530px;
+}
+
+#about-text {
+        color: $white;
+}
