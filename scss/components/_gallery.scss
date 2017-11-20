@@ -1,1 +1,69 @@
+.gallery-heading {
+        display: block;
+        margin: auto;
+        width: 150px;
+}
 
+.caption {
+        font-family: $roboto;
+        font-weight: 700;
+        color: $white;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin-top: 0px;
+        padding-top: 45%;
+        text-align: center;
+        opacity: 0;
+        transition: ease 0.15s;
+        transform: scale(1);
+        font-size: 10pt;
+        z-index: 1;
+        cursor: pointer;
+        text-shadow: 0px 0px 5px $black;
+        transition: ease 0.15s;
+
+}
+
+.caption:hover {
+        opacity: 1;
+        transition: ease 0.15s;
+        transform: scale(1.3);
+        z-index: 1;
+        transition: ease 0.15s;
+
+}
+
+.gallery-content {
+        width: 100%;
+        float: left;
+        transform: scale(1);
+        transition: ease 0.15s;
+
+}
+
+.gallery-content:hover {
+        transform: scale(0.8);
+        transition: ease 0.5s;
+}
+
+.port-work {
+        border-radius: 200px;
+        -webkit-box-shadow: 0px 0px 35px -5px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 0px 35px -5px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 35px -5px rgba(0, 0, 0, 0.15);
+        z-index: 0;
+        margin: 5%;
+        width: 90%;
+        animation: flip;
+        transition: ease 0.5s;
+
+}
+
+.port-work:hover {
+        opacity: 0.5;
+        transition: ease 0.5s;
+
+}
