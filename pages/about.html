@@ -40,7 +40,52 @@
                 </div>
                 <div class="row col col-12 spacer"></div>
 
+                <div id="skills">
+                        <div class="row col col-12">
+                                <img class="gallery-heading" src="/img/tags/skills.svg">
+                        </div>
+                        <div class="row col col-12 spacer"></div>
 
+                        <div class="row col offset-2 col-8">
+                                <div class="skillbar clearfix" data-percent="100%">
+                                        <div class="skillbar-title"><span>HTML</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent" style="right: 1%;">100%</div>
+                                </div>
+                        </div>
+                        <div class="row col offset-2 col-8">
+                                <div class="skillbar clearfix" data-percent="90%">
+                                        <div class="skillbar-title"><span>PHOTOSHOP</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent" style="right:11%;">90%</div>
+                                </div>
+                        </div>
+                        <div class="row col offset-2 col-8">
+
+                                <div class="skillbar clearfix" data-percent="80%">
+                                        <div class="skillbar-title"><span>CSS</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent" style="right: 21%;">80%</div>
+                                </div>
+                        </div>
+                        <div class="row col offset-2 col-8">
+
+                                <div class="skillbar clearfix" data-percent="70%">
+                                        <div class="skillbar-title"><span>ILLUSTRATOR</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent" style="right: 31%;">70%</div>
+                                </div>
+                        </div>
+                        <div class="row col offset-2 col-8">
+
+                                <div class="skillbar clearfix" data-percent="30%">
+                                        <div class="skillbar-title"><span>JS</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent" style="right: 71%;">30%</div>
+                                </div>
+                        </div>
+                </div>
+                <div class="row col col-12 spacer"></div>
 
                 <div class="row col col-12 spacer"></div>
 
@@ -68,6 +113,16 @@
         <script src="https://use.fontawesome.com/1a160ca5da.js"></script>
         <script src="/scripts/main.js"></script>
         <script src="/scripts/zenscroll.js"></script>
+        <script>
+                jQuery(document).ready(function() {
+                        jQuery('.skillbar').each(function() {
+                                jQuery(this).find('.skillbar-bar').animate({
+                                        width: jQuery(this).attr('data-percent')
+                                }, 2500);
+                        });
+                });
+
+        </script>
 </body>
 
 </html>
