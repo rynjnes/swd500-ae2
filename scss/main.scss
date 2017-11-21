@@ -31,4 +31,8 @@ body {
         background: $background;
         font-family: $rokkitt;
         text-align: center;
+        animation: fadein 2s;
+        -moz-animation: fadein 2s;
+        -webkit-animation: fadein 2s;
+        -o-animation: fadein 2s;
 }

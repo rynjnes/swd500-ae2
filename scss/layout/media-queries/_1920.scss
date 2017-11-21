@@ -1,0 +1,7 @@
+@media (max-width: 1920px) {
+        .about-div {
+                width: $col_1_width * 8;
+                margin-left: $col_1_width * 2;
+                transition: ease 0.25s;
+        }
+}

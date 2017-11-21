@@ -20,6 +20,10 @@ $col_1_width: $max_width / $grid_cols;
         float: left;
 }
 
+.col-05 {
+        width: $col_1_width / 2;
+}
+
 .col-1 {
         width: $col_1_width;
 }
@@ -88,6 +92,10 @@ $col_1_width: $max_width / $grid_cols;
 
 .offset-5 {
         margin-left: $col_1_width * 5;
+}
+
+.offset-55 {
+        margin-left: $col_1_width * 5.5;
 }
 
 .offset-6 {

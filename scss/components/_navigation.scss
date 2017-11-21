@@ -1,15 +1,23 @@
-#navigation {
+#nav {
         font-family: $rozha;
 }
 
-#navigation a {
+#nav a {
         display: inline;
         color: $white;
         text-decoration: none;
         transition: ease 0.25s;
 }
 
-#navigation a:hover {
+#nav {
+        li {
+                list-style: none;
+                line-height: 96pt;
+                font-size: 36pt;
+        }
+}
+
+#nav a:hover {
         display: inline;
         color: $gold;
         transition: ease 0.25s;

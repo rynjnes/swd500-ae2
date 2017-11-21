@@ -6,194 +6,208 @@
         <title>Ryan Jones - Design & Developer</title>
         <link rel="stylesheet" href="/css/main.css">
         <link rel="icon" type="image/svg+xml" href="/img/logos/favicon.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
 
-        <script src="https://use.fontawesome.com/1a160ca5da.js"></script>
 </head>
 
 <body>
-
         <div id="wrapper">
-                <div id="navigation">
-                        <div class="row">
-                                <div class="col col-12 spacer"></div>
-                        </div>
+                <div id="nav">
+                        <div class="row col col-12 spacer"></div>
                         <div class="row">
                                 <div class="col offset-1 col-1">
                                         <img id="logo" src="/img/logos/logo.svg">
                                 </div>
-                                <div class="col offset-5 col-1">
+                                <div class="links">
+                                        <div class="col nav offset-7 col-05">
+                                                <a href="#">HOME</a>
+                                        </div>
+                                        <div class="col nav col-05">
+                                                <a href="#">ABOUT</a>
+                                        </div>
+                                        <div class="col nav col-05">
+                                                <a href="#work">WORK</a>
+                                        </div>
+                                        <div class="col nav col-05">
+                                                <a href="#">CONTACT</a>
+                                        </div>
+                                        <div class="col offset-8 col-1">
+                                                <i class="fa fa-bars menu-btn" type="checkbox" id="menu-btn" aria-hidden="true"></i>
+
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+
+                <div id="mobile-navigation">
+                        <ul>
+                                <li>
                                         <a href="#">HOME</a>
-                                </div>
-                                <div class="col col-"><a href="#">ABOUT</a></div>
-                                <div class="col col-1"><a href="#">WORK</a></div>
-                                <div class="col col-1"><a href="#">CONTACT</a></div>
-                        </div>
-                        <div class="row">
-                                <div class="col col-12 spacer"></div>
-                        </div>
-                </div>
-                <div id="header">
-                        <div class="row">
-                                <div class="col offset-2 col-8"><img class="tagline" src="/img/tags/tagline.svg"></div>
-                        </div>
-                        <div class="row">
-                                <div class="col col-12 spacer"></div>
-                        </div>
-                        <div class="row">
-                                <div class="col offset-2 col-8">
-                                        <p id="about-text">Hi There, I'm Ryan. A 20 Year Old Web Design & Development Student who is Studying at <a class="about-link" href="https://www.solent.ac.uk/">&nbsp;Southampton Solent University.&nbsp;</a>
-                                                <br>
-                                                <br>During my time in Secondary School, I picked up the hobby of <a class="about-link" href="https://soundcloud.com/ryyyy">&nbsp;Music Production,&nbsp;</a> a hobby of which I am still heavily invested in. This lead me to creating my own album art and and various other pieces for my music, from which I realised I enjoyed making just as much.
-                                                <br>
-                                                <br>From this, I started Graphics Design on <a class="about-link" href="https://www.youtube.com/c/RyanJonesGraphics">&nbsp;YouTube&nbsp;</a> within The Gaming Community, as well as setting up a Personal Clothing Brand as well as a variety of smaller brands. I delved much further into the Design world by taking an IT course at College allowing me to find my perfect niche in the industry of which is IT & Graphics.
-                                                <br>
-                                                <br>I enjoy creating
-                                                <a class="about-link" href="#gallery">&nbsp;Illustrations,&nbsp;</a>
-                                                <a class="about-link" href="#gallery">&nbsp;Websites&nbsp;</a> and various other branding elements and love working with new people.
-                                                <br>
-                                                <br>
-                                        </p>
-                                </div>
-                        </div>
-                </div>
-                <div id="gallery">
-                        <div class="row">
-                                <div class="col col-12 spacer"></div>
-                        </div>
-                        <div class="row">
-                                <div class="col offset-4 col-4">
-                                        <img class="gallery-heading" src="/img/tags/gallery.svg">
-                                </div>
-                        </div>
-                        <div class="row">
-                                <div class="col col-12 spacer"></div>
-                        </div>
-                        <div class="row">
-                                <div class="col offset-1 col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">GHOST</p>
-                                                <img class="port-work" src="/img/ghost/ghost.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">PIXEL PLAN</p>
-                                                <img class="port-work" src="/img/pixel-plan/pixel-plan-round.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">WOLF</p>
-                                                <img class="port-work" src="/img/wolf/wolf.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">ZEST</p>
-                                                <img class="port-work" src="/img/zest/zest.jpg">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">FRANK OCEAN</p>
-                                                <img class="port-work" src="/img/frank/frank.png">
-                                        </a>
-                                </div>
-                        </div>
-
-                        <div class="row">
-                                <div class="col offset-1 col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">KANYE</p>
-                                                <img class="port-work" src="/img/kanye/kanye.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">SCHOOLBOY Q</p>
-                                                <img class="port-work" src="/img/schoolboy/schoolboy.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">PROJECT GUTENBERG</p>
-                                                <img class="port-work" src="/img/gutenberg/gutenberg.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">CASA D'ORO</p>
-                                                <img class="port-work" src="/img/casa-doro/casa-doro-icon.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">PHOENIX RESOURCING</p>
-                                                <img class="port-work" src="/img/phoenix/phoenix.png">
-                                        </a>
-                                </div>
-                        </div>
-
-                        <div class="row">
-                                <div class="col offset-1 col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">CORPWELLSOL</p>
-                                                <img class="port-work" src="/img/corpwellsol/corpwellsol.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">NEW BALANCE</p>
-                                                <img class="port-work" src="/img/new-balance/newbalance.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">SOLENT PIZZA</p>
-                                                <img class="port-work" src="/img/solent/solentpizza.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">THE BOILING POINT</p>
-                                                <img class="port-work" src="/img/boiling/boilingpoint.png">
-                                        </a>
-                                </div>
-                                <div class="col col-2">
-                                        <a class="gallery-content">
-                                                <p class="caption">SOLAR PLAN</p>
-                                                <img class="port-work" src="/img/solarplan/solarplan.png">
-                                        </a>
-                                </div>
-                        </div>
-                        <div class="row">
-                                <div class="col col-12 spacer"></div>
-                        </div>
-
-                </div>
-                <div id="footer">
-                        <div class="row">
-                                <div class="col offset-5 col-2 social-icons">
-                                        <div class="col col-3">
-                                                <a href="http://www.linkedin.com/in/rynjnes" class="social-icon"> <i class="fa fa-linkedin"></i></a>
-                                        </div>
-                                        <div class="col col-3">
-                                                <a href="https://twitter.com/rynjnesmedia" class="social-icon"> <i class="fa fa-twitter"></i></a>
-                                        </div>
-                                        <div class="col col-3">
-                                                <a href="https://www.behance.net/RyanJnes" class="social-icon"> <i class="fa fa-behance"></i></a>
-                                        </div>
-                                        <div class="col col-3">
-                                                <a href="https://www.youtube.com/c/RyanJonesGraphics" class="social-icon"> <i class="fa fa-youtube"></i></a>
-                                        </div>
-
-                                </div>
-                        </div>
-                        <div class="row">
-                                <div class="col col-12 spacer"></div>
-                        </div>
+                                </li>
+                                <li>
+                                        <a href="#">ABOUT</a>
+                                </li>
+                                <li>
+                                        <a href="#work">WORK</a>
+                                </li>
+                                <li>
+                                        <a href="#">CONTACT</a>
+                                </li>
+                        </ul>
                 </div>
         </div>
+        <div class="row col col-12 spacer"></div>
+
+        <div id="header">
+                <div class="row dsnxdvp col offset-2 col-8"><img class="tagline" src="/img/tags/tagline.svg"></div>
+        </div>
+
+        <div class="row col offset-2 about-div col-8">
+                <p id="about-text">Hi There, I'm Ryan. A 20 Year Old Web Design & Development Student who is Studying at <a class="about-link" href="https://www.solent.ac.uk/">&nbsp;Southampton Solent University.&nbsp;</a>
+                        <br>
+                        <br>During my time in Secondary School, I picked up the hobby of <a class="about-link" href="https://soundcloud.com/ryyyy">&nbsp;Music Production,&nbsp;</a> a hobby of which I am still heavily invested in. This lead me to creating my own album art and and various other pieces for my music, from which I realised I enjoyed making just as much.
+                        <br>
+                        <br>From this, I started Graphics Design on <a class="about-link" href="https://www.youtube.com/c/RyanJonesGraphics">&nbsp;YouTube&nbsp;</a> within The Gaming Community, as well as setting up a Personal Clothing Brand as well as a variety of smaller brands. I delved much further into the Design world by taking an IT course at College allowing me to find my perfect niche in the industry of which is IT & Graphics.
+                        <br>
+                        <br>I enjoy creating
+                        <a class="about-link" href="#gallery">&nbsp;Illustrations,&nbsp;</a>
+                        <a class="about-link" href="#gallery">&nbsp;Websites&nbsp;</a> and various other branding elements and love working with new people.
+                        <br>
+                        <br>
+                </p>
+        </div>
+
+        <div id="gallery">
+                <div class="row col col-12 spacer"></div>
+
+                <div class="row col offset-4 col-4">
+                        <img class="gallery-heading" id="work" src="/img/tags/gallery.svg">
+                </div>
+                <div class="row col col-12 spacer"></div>
+
+                <div class="row gall-row">
+                        <div class="col offset-1 col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">GHOST</p>
+                                        <img class="port-work" src="/img/ghost/ghost.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">PIXEL PLAN</p>
+                                        <img class="port-work" src="/img/pixel-plan/pixel-plan-round.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">WOLF</p>
+                                        <img class="port-work" src="/img/wolf/wolf.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">ZEST</p>
+                                        <img class="port-work" src="/img/zest/zest.jpg">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">FRANK OCEAN</p>
+                                        <img class="port-work" src="/img/frank/frank.png">
+                                </a>
+                        </div>
+
+                        <div class="col offset-1 col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">KANYE</p>
+                                        <img class="port-work" src="/img/kanye/kanye.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">SCHOOLBOY Q</p>
+                                        <img class="port-work" src="/img/schoolboy/schoolboy.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">PROJECT GUTENBERG</p>
+                                        <img class="port-work" src="/img/gutenberg/gutenberg.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">CASA D'ORO</p>
+                                        <img class="port-work" src="/img/casa-doro/casa-doro-icon.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">PHOENIX RESOURCING</p>
+                                        <img class="port-work" src="/img/phoenix/phoenix.png">
+                                </a>
+                        </div>
+
+                        <div class="col offset-1 col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">CORPWELLSOL</p>
+                                        <img class="port-work" src="/img/corpwellsol/corpwellsol.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">NEW BALANCE</p>
+                                        <img class="port-work" src="/img/new-balance/newbalance.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">SOLENT PIZZA</p>
+                                        <img class="port-work" src="/img/solent/solentpizza.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">THE BOILING POINT</p>
+                                        <img class="port-work" src="/img/boiling/boilingpoint.png">
+                                </a>
+                        </div>
+                        <div class="col col-2">
+                                <a class="gallery-content">
+                                        <p class="caption">SOLAR PLAN</p>
+                                        <img class="port-work" src="/img/solarplan/solarplan.png">
+                                </a>
+                        </div>
+                </div>
+                <div class="row col col-12 spacer"></div>
+
+        </div>
+
+
+        <div id="footer">
+                <div class="row col offset-55 col-1 social-icons">
+                        <div class="col social col-3">
+                                <a href="http://www.linkedin.com/in/rynjnes" class="social-icon"> <i class="fa fa-linkedin"></i></a>
+                        </div>
+                        <div class="col social col-3">
+                                <a href="https://twitter.com/rynjnesmedia" class="social-icon"> <i class="fa fa-twitter"></i></a>
+                        </div>
+                        <div class="col social col-3">
+                                <a href="https://www.behance.net/RyanJnes" class="social-icon"> <i class="fa fa-behance"></i></a>
+                        </div>
+                        <div class="col social col-3">
+                                <a href="https://www.youtube.com/c/RyanJonesGraphics" class="social-icon"> <i class="fa fa-youtube"></i></a>
+                        </div>
+
+                </div>
+        </div>
+        <div class="row col col-12 spacer"></div>
+
+        <script src="https://use.fontawesome.com/1a160ca5da.js"></script>
+        <script src="/scripts/main.js"></script>
+        <script src="/scripts/zenscroll.js"></script>
+
 </body>
 
 </html>

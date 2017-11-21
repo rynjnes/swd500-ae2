@@ -15,9 +15,11 @@
 }
 
 .tagline {
-        width: 530px;
+        width: 100%;
 }
 
 #about-text {
         color: $white;
+        text-align: justify;
+        text-align-last: center;
 }

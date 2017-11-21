@@ -1,0 +1,19 @@
+@media (max-width: 425px) {
+        .gall-row {
+                .offset-1 {
+                        margin-left: $col_1_width - $col_1_width;
+                }
+
+                .col-2 {
+                        width: $col_1_width * 12;
+                }
+        }
+
+        .social {
+                margin: 0px 17.5px 0px 17.5px;
+        }
+
+        .spacer {
+                height: 5px;
+        }
+}
