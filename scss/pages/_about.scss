@@ -1,1 +1,19 @@
+.hobbie-img {
+        width: 40%;
+        display: block;
+        margin: 0 auto;
+}
 
+.hobbie-desc {
+        margin: 10%;
+        width: 80%;
+        float: left;
+        text-align: justify;
+        text-align-last: center;
+        color: $white;
+}
+
+.hobbie {
+        float: left;
+        justify-content: center;
+}

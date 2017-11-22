@@ -193,6 +193,11 @@
 .tagline {
   width: 100%; }
 
+.what-i-do-heading {
+  display: block;
+  margin: auto;
+  width: 225px; }
+
 #about-text {
   color: #ffffff;
   text-align: justify;
@@ -381,6 +386,9 @@
 .col-12 {
   width: 100%; }
 
+.offset-05 {
+  margin-left: 4.1666666667%; }
+
 .offset-1 {
   margin-left: 8.3333333333%; }
 
@@ -481,6 +489,23 @@
 
   .spacer {
     height: 5px; } }
+.hobbie-img {
+  width: 40%;
+  display: block;
+  margin: 0 auto; }
+
+.hobbie-desc {
+  margin: 10%;
+  width: 80%;
+  float: left;
+  text-align: justify;
+  text-align-last: center;
+  color: #ffffff; }
+
+.hobbie {
+  float: left;
+  justify-content: center; }
+
 body {
   margin: 0 auto;
   background: #242c35;

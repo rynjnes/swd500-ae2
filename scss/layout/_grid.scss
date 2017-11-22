@@ -72,6 +72,12 @@ $col_1_width: $max_width / $grid_cols;
         width: $col_1_width * 12;
 }
 
+
+.offset-05 {
+        margin-left: $col_1_width / 2;
+}
+
+
 .offset-1 {
         margin-left: $col_1_width;
 }
