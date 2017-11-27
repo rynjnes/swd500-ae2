@@ -474,7 +474,16 @@
 
   #menu-btn {
     display: inline !important;
-    color: white; } }
+    color: white; }
+
+  #what-i-do .col-3 {
+    width: 50%;
+    height: 350px; }
+
+  #skills .col-8 {
+    width: 83.3333333333%; }
+  #skills .offset-2 {
+    margin-left: 8.3333333333%; } }
 @media (min-width: 768px) {
   .tagline {
     width: 530px; } }
@@ -488,7 +497,15 @@
     margin: 0px 17.5px 0px 17.5px; }
 
   .spacer {
-    height: 5px; } }
+    height: 5px; }
+
+  #what-i-do .col-3 {
+    width: 100%; }
+
+  #skills .col-8 {
+    width: 83.3333333333%; }
+  #skills .offset-2 {
+    margin-left: 8.3333333333%; } }
 .hobbie-img {
   width: 40%;
   display: block;
