@@ -511,6 +511,26 @@
   float: left;
   justify-content: center; }
 
+form {
+  float: left;
+  width: 100%;
+  color: white; }
+
+.form-element {
+  width: 100%;
+  border: 1px #ffffff solid;
+  background: rgba(0, 0, 0, 0); }
+
+.btn {
+  font-family: "Rokkitt", serif;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0);
+  border: 1px #ffffff solid;
+  border-radius: 0px; }
+
+#contact {
+  width: 100%; }
+
 body {
   margin: 0 auto;
   background: #1d86ef;

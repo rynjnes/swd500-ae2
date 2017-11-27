@@ -1,0 +1,23 @@
+form {
+        float: left;
+        width: 100%;
+        color: white;
+}
+
+.form-element {
+        width: 100%;
+        border: 1px $white solid;
+        background: $transparent
+}
+
+.btn {
+        font-family: $rokkitt;
+        color: $white;
+        background: $transparent;
+        border: 1px $white solid;
+        border-radius: 0px;
+}
+
+#contact {
+        width: 100%;
+}
