@@ -36,3 +36,11 @@ body {
         -webkit-animation: fadein 2s;
         -o-animation: fadein 2s;
 }
+
+img {
+        transition: all ease 1s;
+}
+
+p {
+        transition: all ease 1s;
+}

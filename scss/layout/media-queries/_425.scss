@@ -28,10 +28,14 @@
         #skills {
                 .col-8 {
                         width: $col_1_width * 10;
+                        transition: all ease 0.5s;
+
                 }
 
                 .offset-2 {
                         margin-left: $col_1_width * 1;
+                        transition: all ease 0.5s;
+
                 }
         }
 }

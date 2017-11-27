@@ -1,27 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Rozha+One");
 @import url("https://fonts.googleapis.com/css?family=Rokkitt");
 @import url("https://fonts.googleapis.com/css?family=Hammersmith+One|Roboto+Condensed:300,400,700");
-.color1 {
-  background: #de151c; }
-
-.color2 {
-  background: #f4780d; }
-
-.color3 {
-  background: #ffdf00; }
-
-.color4 {
-  background: #62d924; }
-
-.color5 {
-  background: #1d86ef; }
-
-.color6 {
-  background: #8c35fd; }
-
-.color7 {
-  background: #fd72ff; }
-
 @keyframes fadein {
   from {
     opacity: 0; }
@@ -59,7 +38,7 @@
   -moz-transition: .25s;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #262938;
+  color: #1d86ef;
   background-color: #ffffff; }
 
 .fa-linkedin:hover {
@@ -73,7 +52,7 @@
   -moz-transition: .25s;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #262938;
+  color: #1d86ef;
   background-color: #ffffff; }
 
 .fa-twitter:hover {
@@ -87,7 +66,7 @@
   -moz-transition: .25s;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #262938;
+  color: #1d86ef;
   background-color: #ffffff; }
 
 .fa-behance:hover {
@@ -101,7 +80,7 @@
   -moz-transition: .25s;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #262938;
+  color: #1d86ef;
   background-color: #ffffff; }
 
 .fa-youtube:hover {
@@ -177,7 +156,7 @@
   transition: ease 0.25s; }
 
 .about-link {
-  color: #4a4a4a;
+  color: #1d86ef;
   background: #ffffff;
   font-weight: 400;
   text-decoration: none;
@@ -315,7 +294,7 @@
   -moz-border-radius-bottomleft: 3px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  color: #242c35; }
+  color: #1d86ef; }
 
 .skillbar-bar {
   height: 35px;
@@ -331,21 +310,23 @@
   font-size: 11px;
   height: 35px;
   line-height: 35px;
-  color: #242c35; }
+  color: #1d86ef; }
 
 .col {
   float: left;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 0px 10px 0px; }
+  padding: 10px 0px 10px 0px;
+  transition: all ease 1s; }
 
 .spacer {
   height: 65px; }
 
 .row {
   width: 100%;
-  float: left; }
+  float: left;
+  transition: all ease 0.5s; }
 
 .col-05 {
   width: 4.1666666667%; }
@@ -478,7 +459,8 @@
 
   #what-i-do .col-3 {
     width: 50%;
-    height: 350px; }
+    height: 350px;
+    transition: all ease 0.5s; }
 
   #skills .col-8 {
     width: 83.3333333333%; }
@@ -486,7 +468,11 @@
     margin-left: 8.3333333333%; } }
 @media (min-width: 768px) {
   .tagline {
-    width: 530px; } }
+    width: 530px; }
+
+  #what-i-do .col-3 {
+    width: 25%;
+    transition: all ease 0.5s; } }
 @media (max-width: 425px) {
   .gall-row .offset-1 {
     margin-left: 0%; }
@@ -503,9 +489,11 @@
     width: 100%; }
 
   #skills .col-8 {
-    width: 83.3333333333%; }
+    width: 83.3333333333%;
+    transition: all ease 0.5s; }
   #skills .offset-2 {
-    margin-left: 8.3333333333%; } }
+    margin-left: 8.3333333333%;
+    transition: all ease 0.5s; } }
 .hobbie-img {
   width: 40%;
   display: block;
@@ -525,12 +513,18 @@
 
 body {
   margin: 0 auto;
-  background: #242c35;
+  background: #1d86ef;
   font-family: "Rokkitt", serif;
   text-align: center;
   animation: fadein 2s;
   -moz-animation: fadein 2s;
   -webkit-animation: fadein 2s;
   -o-animation: fadein 2s; }
+
+img {
+  transition: all ease 1s; }
+
+p {
+  transition: all ease 1s; }
 
 /*# sourceMappingURL=main.css.map */

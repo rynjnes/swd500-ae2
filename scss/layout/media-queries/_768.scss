@@ -23,6 +23,7 @@
                 .col-3 {
                         width: $col_1_width * 6;
                         height: 350px;
+                        transition: all ease 0.5s;
                 }
         }
 
@@ -40,5 +41,13 @@
 @media (min-width: 768px) {
         .tagline {
                 width: 530px;
+        }
+
+        #what-i-do {
+
+                .col-3 {
+                        width: $col_1_width * 3;
+                        transition: all ease 0.5s;
+                }
         }
 }
