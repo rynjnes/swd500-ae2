@@ -413,7 +413,12 @@
   .about-div {
     width: 66.6666666667%;
     margin-left: 16.6666666667%;
-    transition: ease 0.25s; } }
+    transition: ease 0.25s; }
+
+  #contact-form .col-8 {
+    width: 50%; }
+  #contact-form .offset-2 {
+    margin-left: 25%; } }
 @media (max-width: 1440px) {
   .social {
     margin: 0px 10px 0px 10px; }
@@ -462,9 +467,11 @@
     height: 350px;
     transition: all ease 0.5s; }
 
-  #skills .col-8 {
+  #skills .col-8,
+  #contact-form .col-8 {
     width: 83.3333333333%; }
-  #skills .offset-2 {
+  #skills .offset-2,
+  #contact-form .offset-2 {
     margin-left: 8.3333333333%; } }
 @media (min-width: 768px) {
   .tagline {
@@ -488,10 +495,12 @@
   #what-i-do .col-3 {
     width: 100%; }
 
-  #skills .col-8 {
+  #skills .col-8,
+  #contact-form .col-8 {
     width: 83.3333333333%;
     transition: all ease 0.5s; }
-  #skills .offset-2 {
+  #skills .offset-2,
+  #contact-form .offset-2 {
     margin-left: 8.3333333333%;
     transition: all ease 0.5s; } }
 .hobbie-img {
