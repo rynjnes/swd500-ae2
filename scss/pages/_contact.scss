@@ -1,22 +1,27 @@
 form {
-        float: left;
-        width: 100%;        color: white;
+    float: left;
+    width: 100%;
+    color: white;
 }
 
 .form-element {
-        width: 100%;
-        border: 1px $white solid;
-        background: $transparent
+    width: 100%;
+    border: 1px $white solid;
+    background: $transparent;
+    color: $white;
+    text-align: center;
+    font-family: $rokkitt;
+    padding: 5px 0px 5px 0px;
 }
 
 .btn {
-        font-family: $rokkitt;
-        color: $white;
-        background: $transparent;
-        border: 1px $white solid;
-        border-radius: 0px;
+    font-family: $rokkitt;
+    color: $white;
+    background: $transparent;
+    border: 1px $white solid;
+    border-radius: 0px;
 }
 
 #contact {
-        width: 100%;
+    width: 100%;
 }

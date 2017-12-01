@@ -38,7 +38,7 @@
   -moz-transition: .25s;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #1d86ef;
+  color: #8c35fd;
   background-color: #ffffff; }
 
 .fa-linkedin:hover {
@@ -52,7 +52,7 @@
   -moz-transition: .25s;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #1d86ef;
+  color: #8c35fd;
   background-color: #ffffff; }
 
 .fa-twitter:hover {
@@ -66,7 +66,7 @@
   -moz-transition: .25s;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #1d86ef;
+  color: #8c35fd;
   background-color: #ffffff; }
 
 .fa-behance:hover {
@@ -80,7 +80,7 @@
   -moz-transition: .25s;
   -webkit-transition: .25s;
   transition: .25s;
-  color: #1d86ef;
+  color: #8c35fd;
   background-color: #ffffff; }
 
 .fa-youtube:hover {
@@ -156,7 +156,7 @@
   transition: ease 0.25s; }
 
 .about-link {
-  color: #1d86ef;
+  color: #8c35fd;
   background: #ffffff;
   font-weight: 400;
   text-decoration: none;
@@ -294,7 +294,7 @@
   -moz-border-radius-bottomleft: 3px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  color: #1d86ef; }
+  color: #8c35fd; }
 
 .skillbar-bar {
   height: 35px;
@@ -310,7 +310,7 @@
   font-size: 11px;
   height: 35px;
   line-height: 35px;
-  color: #1d86ef; }
+  color: #8c35fd; }
 
 .col {
   float: left;
@@ -528,7 +528,11 @@ form {
 .form-element {
   width: 100%;
   border: 1px #ffffff solid;
-  background: rgba(0, 0, 0, 0); }
+  background: rgba(0, 0, 0, 0);
+  color: #ffffff;
+  text-align: center;
+  font-family: "Rokkitt", serif;
+  padding: 5px 0px 5px 0px; }
 
 .btn {
   font-family: "Rokkitt", serif;
@@ -542,7 +546,7 @@ form {
 
 body {
   margin: 0 auto;
-  background: #1d86ef;
+  background: #8c35fd;
   font-family: "Rokkitt", serif;
   text-align: center;
   animation: fadein 2s;
