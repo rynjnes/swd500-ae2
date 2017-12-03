@@ -568,35 +568,41 @@ h2 {
 #block-1 {
   width: 100%;
   margin-bottom: -0%;
-  float: left; }
+  float: left;
+  min-height: 100%; }
 
 #block-2 {
   float: left;
   width: 49.75%;
-  margin-right: 0.25%; }
+  margin-right: 0.25%;
+  min-height: 100%; }
 
 #block-3 {
   float: left;
   width: 49.75%;
   margin-left: 0.25%;
-  margin-bottom: 0%; }
+  margin-bottom: 0%;
+  min-height: 100%; }
 
 #block-4 {
   float: left;
   width: 24.62%;
   margin-left: 0.25%;
-  margin-bottom: 0.2 0.5%; }
+  margin-bottom: 0.2 0.5%;
+  min-height: 100%; }
 
 #block-5 {
   float: left;
   width: 24.6%;
   margin-left: 0.5%;
-  margin-bottom: 0.2 0.5%; }
+  margin-bottom: 0.2 0.5%;
+  min-height: 100%; }
 
 #block-6 {
   float: left;
   width: 49.75%;
-  margin-left: 0.25%; }
+  margin-left: 0.25%;
+  min-height: 100%; }
 
 #img-container {
   margin-top: -10px;
