@@ -1,72 +1,81 @@
 .social-icons a {
-        color: $white;
-        text-decoration: none;
+    color: $white;
+    text-decoration: none;
 }
 
 .social {
-        margin: 0px 7.5px 0px 7.5px;
+    margin: 0px 7.5px 0px 7.5px;
+}
+
+.fa-linkedin,
+.fa-twitter,
+.fa-behance,
+.fa-youtube {
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    -moz-transition: .25s;
+    -webkit-transition: .25s;
+    transition: .25s;
 }
 
 .fa-linkedin {
-        padding: 10px 12px;
-        -o-transition: .25s;
-        -ms-transition: .25s;
-        -moz-transition: .25s;
-        -webkit-transition: .25s;
-        transition: .25s;
-        color: $background;
-        background-color: $white;
+    padding: 10px 12px;
+    color: $background;
+    background-color: $white;
 }
 
 .fa-linkedin:hover {
-        color: $white;
-        background-color: $linkedin;
+    color: $white;
+    background-color: $linkedin;
 }
 
 .fa-twitter {
-        padding: 10px 11px;
-        -o-transition: .25s;
-        -ms-transition: .25s;
-        -moz-transition: .25s;
-        -webkit-transition: .25s;
-        transition: .25s;
-        color: $background;
-        background-color: $white;
+    padding: 10px 11px;
+    color: $background;
+    background-color: $white;
 }
 
 .fa-twitter:hover {
-        color: $white;
-        background-color: $twitter;
+    color: $white;
+    background-color: $twitter;
 }
 
 .fa-behance {
-        padding: 10px 9.5px;
-        -o-transition: .25s;
-        -ms-transition: .25s;
-        -moz-transition: .25s;
-        -webkit-transition: .25s;
-        transition: .25s;
-        color: $background;
-        background-color: $white;
+    padding: 10px 9.5px;
+    color: $background;
+    background-color: $white;
 }
 
 .fa-behance:hover {
-        color: $white;
-        background-color: $behance;
+    color: $white;
+    background-color: $behance;
 }
 
 .fa-youtube {
-        padding: 10px 11.5px;
-        -o-transition: .25s;
-        -ms-transition: .25s;
-        -moz-transition: .25s;
-        -webkit-transition: .25s;
-        transition: .25s;
-        color: $background;
-        background-color: $white;
+    padding: 10px 11.5px;
+    color: $background;
+    background-color: $white;
 }
 
 .fa-youtube:hover {
-        color: $white;
-        background-color: $youtube;
+    color: $white;
+    background-color: $youtube;
+}
+
+.new-balance-body {
+    .fa-linkedin,
+    .fa-twitter,
+    .fa-behance,
+    .fa-youtube {
+        color: $gunmetal;
+        background: $newbalance;
+    }
+
+    .fa-linkedin:hover,
+    .fa-twitter:hover,
+    .fa-behance:hover,
+    .fa-youtube:hover {
+        color: $newbalance;
+        background: $gunmetal;
+    }
 }
