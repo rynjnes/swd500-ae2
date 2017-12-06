@@ -20,6 +20,15 @@
         .spacer {
                 height: 35px;
         }
+
+        #gallery-body {
+                .col-8 {
+                        width: $col_1_width * 8;
+                }
+                .offset-2 {
+                        margin-left: $col_1_width * 2;
+                }
+        }
 }
 
 @media (min-width: 1024px) {
@@ -27,5 +36,10 @@
         .menu-btn,
         #mobile-navigation {
                 display: none!important;
+        }
+
+        #main-page {
+                max-width: 30%;
+                transition: ease 0.5s;
         }
 }

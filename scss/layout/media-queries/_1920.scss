@@ -15,4 +15,14 @@
                 }
         }
 
+        #gallery-body {
+                .col-8 {
+                        width: $col_1_width * 6;
+                }
+                .offset-2 {
+                        margin-left: $col_1_width * 3;
+                }
+        }
+
+
 }

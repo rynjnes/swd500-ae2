@@ -6,6 +6,35 @@ $color5: #1d86ef;
 $color6: #8c35fd;
 $color7: #fd72ff;
 
+.color1 {
+        background: $color1;
+}
+
+.color2 {
+        background: $color2;
+}
+
+.color3 {
+        background: $color3;
+}
+
+.color4 {
+        background: $color4;
+}
+
+.color5 {
+        background: $color5;
+}
+
+.color6 {
+        background: $color6;
+}
+
+.color7 {
+        background: $color7;
+}
+
+
 $gold: #fed040;
 $white: #ffffff;
 $platinum: #e6e6e6;
@@ -22,10 +51,9 @@ $behance: #053eff;
 $youtube: #cc181e;
 $gunmetal: #242c35;
 
-$background: $color6;
-
+$background: $color1;
 $newbalance: #00ff6c;
 
 .newbalance {
-    color: $newbalance;
+        color: $newbalance;
 }
