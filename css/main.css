@@ -1,27 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Rozha+One");
 @import url("https://fonts.googleapis.com/css?family=Rokkitt");
 @import url("https://fonts.googleapis.com/css?family=Hammersmith+One|Roboto+Condensed:300,400,700");
-.color1 {
-  background: #de151c; }
-
-.color2 {
-  background: #f4780d; }
-
-.color3 {
-  background: #ffdf00; }
-
-.color4 {
-  background: #62d924; }
-
-.color5 {
-  background: #1d86ef; }
-
-.color6 {
-  background: #8c35fd; }
-
-.color7 {
-  background: #fd72ff; }
-
 @keyframes fadein {
   from {
     opacity: 0; }
@@ -64,7 +43,7 @@
 
 .fa-linkedin {
   padding: 10px 12px;
-  color: #000000;
+  color: #242c35;
   background-color: #ffffff; }
 
 .fa-linkedin:hover {
@@ -73,7 +52,7 @@
 
 .fa-twitter {
   padding: 10px 11px;
-  color: #000000;
+  color: #242c35;
   background-color: #ffffff; }
 
 .fa-twitter:hover {
@@ -82,7 +61,7 @@
 
 .fa-behance {
   padding: 10px 9.5px;
-  color: #000000;
+  color: #242c35;
   background-color: #ffffff; }
 
 .fa-behance:hover {
@@ -91,7 +70,7 @@
 
 .fa-youtube {
   padding: 10px 11.5px;
-  color: #000000;
+  color: #242c35;
   background-color: #ffffff; }
 
 .fa-youtube:hover {
@@ -272,7 +251,7 @@ figcaption {
   transition: ease 0.25s; }
 
 .about-link {
-  color: #000000;
+  color: #242c35;
   background: #ffffff;
   font-weight: 400;
   text-decoration: none;
@@ -410,7 +389,7 @@ figcaption {
   -moz-border-radius-bottomleft: 3px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  color: #000000; }
+  color: #242c35; }
 
 .skillbar-bar {
   height: 35px;
@@ -426,7 +405,7 @@ figcaption {
   font-size: 11px;
   height: 35px;
   line-height: 35px;
-  color: #000000; }
+  color: #242c35; }
 
 .col {
   float: left;
@@ -542,7 +521,21 @@ figcaption {
   #gallery-body .col-8 {
     width: 50%; }
   #gallery-body .offset-2 {
-    margin-left: 25%; } }
+    margin-left: 25%; }
+
+  .tony {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56%;
+    margin-bottom: 15px; }
+
+  .tony iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; } }
 @media (max-width: 1440px) {
   .social {
     margin: 0px 10px 0px 10px; }
@@ -927,7 +920,7 @@ figcaption {
 
 .casa-doro-body {
   color: #ffffff;
-  background-color: #000000;
+  background-color: #242c35;
   background-image: url("../img/casa-doro/casa-doro-background.png");
   background-size: 1920px;
   background-attachment: fixed; }
@@ -950,7 +943,7 @@ figcaption {
 
 .ghost-body {
   color: #000000;
-  background-color: #000000;
+  background-color: #242c35;
   background-image: url("../img/ghost/ghost-background.png");
   background-attachment: fixed; }
   .ghost-body .fa-angle-down {
@@ -972,7 +965,9 @@ figcaption {
 
 .schoolboy-body {
   color: #ffffff;
-  background: #000000; }
+  background: #101010; }
+  .schoolboy-body #bottom {
+    background: #101010; }
   .schoolboy-body .fa-angle-down {
     color: #ffffff; }
   .schoolboy-body .fa-angle-down:hover {
@@ -981,14 +976,14 @@ figcaption {
   .schoolboy-body .fa-twitter,
   .schoolboy-body .fa-behance,
   .schoolboy-body .fa-youtube {
-    color: #ffffff;
-    background: #000000; }
+    color: #101010;
+    background: #ffffff; }
   .schoolboy-body .fa-linkedin:hover,
   .schoolboy-body .fa-twitter:hover,
   .schoolboy-body .fa-behance:hover,
   .schoolboy-body .fa-youtube:hover {
-    color: #000000;
-    background: #ffffff; }
+    color: #ffffff;
+    background: #101010; }
 
 form {
   float: left;
@@ -1016,7 +1011,7 @@ form {
 
 body {
   margin: 0 auto;
-  background: #000000;
+  background: #242c35;
   font-family: "Rokkitt", serif;
   text-align: center;
   animation: fadein 2s;

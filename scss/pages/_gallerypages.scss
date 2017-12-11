@@ -424,7 +424,11 @@
 
 .schoolboy-body {
         color: $white;
-        background: $black;
+        background: $schoolboy;
+
+        #bottom {
+                background: $schoolboy;
+        }
 
         .fa-angle-down {
                 color: $white;
@@ -438,15 +442,15 @@
         .fa-twitter,
         .fa-behance,
         .fa-youtube {
-                color: $white;
-                background: $black;
+                color: $schoolboy;
+                background: $white;
         }
 
         .fa-linkedin:hover,
         .fa-twitter:hover,
         .fa-behance:hover,
         .fa-youtube:hover {
-                color: $black;
-                background: $white;
+                color: $white;
+                background: $schoolboy;
         }
 }
