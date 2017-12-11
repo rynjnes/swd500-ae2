@@ -67,3 +67,132 @@
         transition: ease 0.5s;
 
 }
+
+
+/* GALLERY PAGES */
+
+#main-page {
+        width: 60%;
+        margin-top: -25px;
+        margin-bottom: -10px;
+        padding-left: 20%;
+        padding-right: 20%;
+        transition: ease 0.5s;
+
+}
+
+#page-nav {
+        position: relative;
+        top: -110px;
+        margin-top: 60px;
+        margin-bottom: -60px;
+        width: 100%;
+        text-align: center;
+}
+
+#main-gallery {
+        background: $platinum;
+        padding-top: 45px;
+        margin-left: 25%;
+        margin-right: 25%;
+        transition: ease 0.25s;
+}
+
+h2 {
+        color: $white;
+        text-shadow: 2px 0px 9.5px #000;
+        font-size: 13pt;
+}
+
+.fa-angle-down {
+        font: normal normal normal 32px/1 FontAwesome !important;
+        font-size: 35pt;
+        transition: ease 0.25s;
+}
+
+.fa-angle-down:hover {
+        color: $white;
+        font-size: 35pt;
+        transition: ease 0.25s;
+}
+
+
+#img-container {
+        margin-top: -10px;
+        padding-top: 10px;
+}
+
+figure {
+        vertical-align: middle;
+        position: relative;
+        overflow: visible;
+        margin: auto 0!important;
+}
+
+.fade figcaption {
+        background: $fade;
+        opacity: 0;
+        transition: opacity 0.2s ease;
+        width: 100%;
+}
+
+.fade figcaption:hover {
+        opacity: 1;
+}
+
+figcaption {
+        text-align: center;
+        font-family: $rokkitt;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        color: $darkgrey;
+        background: $black;
+}
+
+#caption {
+        width: 100%;
+        height: 50%;
+        margin-top: -10px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 50%;
+        bottom: 50%;
+}
+
+.navigation-btn {
+        margin-right: 5px;
+}
+
+
+#top {
+        margin-top: 100px;
+}
+
+#bottom {
+        background: $white;
+        width: 100%;
+}
+
+.grid-img {
+        width: 100%;
+}
+
+
+.block-1,
+.block-2,
+.block-3,
+.block-4,
+.block-5,
+.block-6 {
+        min-height: 100%;
+}
+
+.block-3,
+.block-4,
+.block-5,
+.block-6 {
+        margin: 0px 0px 0.5px 0px;
+}
