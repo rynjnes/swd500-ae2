@@ -830,6 +830,8 @@ figcaption {
 .zest-body {
   color: #ffffff;
   background: #dc25a3; }
+  .zest-body #bottom {
+    background: #dc25a3; }
   .zest-body .fa-angle-down {
     color: #ffffff; }
   .zest-body .fa-angle-down:hover {
@@ -838,14 +840,18 @@ figcaption {
   .zest-body .fa-twitter,
   .zest-body .fa-behance,
   .zest-body .fa-youtube {
-    color: #ffffff;
-    background: #dc25a3; }
+    color: #dc25a3;
+    background: #ffffff; }
   .zest-body .fa-linkedin:hover,
   .zest-body .fa-twitter:hover,
   .zest-body .fa-behance:hover,
   .zest-body .fa-youtube:hover {
-    color: #dc25a3;
-    background: #ffffff; }
+    color: #ffffff;
+    background: #dc25a3; }
+  .zest-body .grid-img {
+    -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1); }
 
 .boiling-point-body {
   color: #ffffff;
@@ -874,9 +880,9 @@ figcaption {
 .pixel-plan-body {
   color: #ffffff;
   background: #313192;
-  background: -moz-linear-gradient(45deg, #313192 0%, #ea018c 100%);
-  background: -webkit-linear-gradient(45deg, #313192 0%, #ea018c 100%);
-  background: linear-gradient(45deg, #313192 0%, #ea018c 100%); }
+  background: -moz-linear-gradient(45deg, #313192 25%, #ea018c 80%);
+  background: -webkit-linear-gradient(45deg, #313192 25%, #ea018c 80%);
+  background: linear-gradient(45deg, #313192 25%, #ea018c 80%); }
   .pixel-plan-body .fa-angle-down {
     color: #ffffff; }
   .pixel-plan-body .fa-angle-down:hover {
@@ -886,12 +892,12 @@ figcaption {
   .pixel-plan-body .fa-behance,
   .pixel-plan-body .fa-youtube {
     color: #ffffff;
-    background: #dc25a3; }
+    background: #9e258e; }
   .pixel-plan-body .fa-linkedin:hover,
   .pixel-plan-body .fa-twitter:hover,
   .pixel-plan-body .fa-behance:hover,
   .pixel-plan-body .fa-youtube:hover {
-    color: #dc25a3;
+    color: #9e258e;
     background: #ffffff; }
 
 .phoenix-resourcing-body {

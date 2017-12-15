@@ -234,6 +234,10 @@
         color: $white;
         background: $zest;
 
+        #bottom {
+                background: $zest;
+        }
+
         .fa-angle-down {
                 color: $white;
         }
@@ -246,16 +250,22 @@
         .fa-twitter,
         .fa-behance,
         .fa-youtube {
-                color: $white;
-                background: $zest;
+                color: $zest;
+                background: $white;
         }
 
         .fa-linkedin:hover,
         .fa-twitter:hover,
         .fa-behance:hover,
         .fa-youtube:hover {
-                color: $zest;
-                background: $white;
+                color: $white;
+                background: $zest;
+        }
+
+        .grid-img {
+                -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+                -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
+                box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.10);
         }
 }
 
@@ -295,10 +305,9 @@
 .pixel-plan-body {
         color: $white;
         background: rgb(49, 49, 146);
-        background: -moz-linear-gradient(45deg, rgba(49, 49, 146, 1) 0%, rgba(234, 1, 140, 1) 100%);
-        background: -webkit-linear-gradient(45deg, rgba(49, 49, 146, 1) 0%, rgba(234, 1, 140, 1) 100%);
-        background: linear-gradient(45deg, rgba(49, 49, 146, 1) 0%, rgba(234, 1, 140, 1) 100%);
-
+        background: -moz-linear-gradient(45deg, rgba(49, 49, 146, 1) 25%, rgba(234, 1, 140, 1) 80%);
+        background: -webkit-linear-gradient(45deg, rgba(49, 49, 146, 1) 25%, rgba(234, 1, 140, 1) 80%);
+        background: linear-gradient(45deg, rgba(49, 49, 146, 1) 25%, rgba(234, 1, 140, 1) 80%);
 
         .fa-angle-down {
                 color: $white;
@@ -313,14 +322,14 @@
         .fa-behance,
         .fa-youtube {
                 color: $white;
-                background: $zest;
+                background: $pixelplan;
         }
 
         .fa-linkedin:hover,
         .fa-twitter:hover,
         .fa-behance:hover,
         .fa-youtube:hover {
-                color: $zest;
+                color: $pixelplan;
                 background: $white;
         }
 }
