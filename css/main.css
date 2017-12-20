@@ -544,6 +544,175 @@ form {
 #contact {
   width: 100%; }
 
+#construction-body {
+  /* FOOTER */ }
+  #construction-body #logo {
+    width: 40px;
+    margin-top: 20px; }
+  #construction-body #construction {
+    margin-top: 354px;
+    width: 540px; }
+  #construction-body .wrapper {
+    display: table;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.54) !important;
+    height: 1008px; }
+  #construction-body * {
+    box-sizing: border-box; }
+  #construction-body .video-background {
+    background: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -99;
+    opacity: 0.6; }
+  #construction-body .video-foreground,
+  #construction-body .video-background iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; }
+  #construction-body #vidtop-content {
+    top: 0;
+    color: #fff; }
+  #construction-body .vid-info {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 33%;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 1rem;
+    font-family: Avenir, Helvetica, sans-serif; }
+  #construction-body .vid-info h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 0;
+    line-height: 1.2; }
+  #construction-body .vid-info a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.5);
+    transition: .6s background;
+    border-bottom: none;
+    margin: 1rem auto;
+    text-align: center; }
+  @media (min-aspect-ratio: 16 / 9) {
+    #construction-body .video-foreground {
+      height: 300%;
+      top: -100%; } }
+  @media (max-aspect-ratio: 16 / 9) {
+    #construction-body .video-foreground {
+      width: 300%;
+      left: -100%; } }
+  @media all and (max-width: 600px) {
+    #construction-body .vid-info {
+      width: 50%;
+      padding: .5rem; }
+    #construction-body .vid-info h1 {
+      margin-bottom: .2rem; } }
+  @media all and (max-width: 500px) {
+    #construction-body .vid-info .acronym {
+      display: none; } }
+  #construction-body p {
+    color: #fff; }
+  #construction-body #big {
+    height: 768px; }
+  #construction-body [class*="col-"] {
+    float: left;
+    height: 80px;
+    padding-left: 0%; }
+  #construction-body .row:before,
+  #construction-body .row:after {
+    clear: both;
+    content: ""; }
+  #construction-body .row {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6); }
+  #construction-body .col-12 {
+    width: 100%; }
+  #construction-body #footer {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-bottom: -5px;
+    float: left;
+    position: fixed;
+    bottom: 0; }
+  #construction-body #footer-content {
+    width: 164px;
+    margin: 0 auto; }
+  #construction-body .social-icon {
+    color: #fff; }
+  #construction-body ul.social-icons {
+    margin-top: 10px;
+    display: inline; }
+  #construction-body .social-icons li {
+    display: inline; }
+  #construction-body .social-icons a {
+    color: #fff;
+    text-decoration: none; }
+  #construction-body .fa-linkedin {
+    padding: 10px 12px;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    -moz-transition: .25s;
+    -webkit-transition: .25s;
+    transition: .25s;
+    color: #262938;
+    background-color: #fff; }
+  #construction-body .fa-linkedin:hover {
+    color: white;
+    background-color: #3d5b99; }
+  #construction-body .fa-twitter {
+    padding: 10px 11px;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    -moz-transition: .25s;
+    -webkit-transition: .25s;
+    transition: .25s;
+    color: #262938;
+    background-color: #fff; }
+  #construction-body .fa-twitter:hover {
+    color: white;
+    background-color: #00aced; }
+  #construction-body .fa-behance {
+    padding: 10px 9.5px;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    -moz-transition: .25s;
+    -webkit-transition: .25s;
+    transition: .25s;
+    color: #262938;
+    background-color: #fff; }
+  #construction-body .fa-behance:hover {
+    color: white;
+    background-color: #053eff; }
+  #construction-body .fa-youtube {
+    padding: 10px 11.5px;
+    -o-transition: .25s;
+    -ms-transition: .25s;
+    -moz-transition: .25s;
+    -webkit-transition: .25s;
+    transition: .25s;
+    color: #262938;
+    background-color: #fff; }
+  #construction-body .fa-youtube:hover {
+    color: white;
+    background-color: #cc181e; }
+  @media (max-width: 768px) {
+    #construction-body .tagline {
+      width: 370px;
+      margin-top: 0px; }
+    #construction-body #about-text {
+      width: 90%;
+      margin: 5%; } }
+
 body {
   margin: 0 auto;
   background: #8c35fd;
