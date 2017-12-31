@@ -790,6 +790,8 @@ figcaption {
 .kanye-body {
   color: #fdba51;
   background: #ed294a; }
+  .kanye-body #bottom {
+    background: #ed294a; }
   .kanye-body .fa-angle-down {
     color: #fdba51; }
   .kanye-body .fa-angle-down:hover {
@@ -924,26 +926,37 @@ figcaption {
     color: #eb3449;
     background: #ffffff; }
 
-.casa-doro-body {
+.casa-doro-body,
+.casa-doro-body #bottom {
   color: #ffffff;
   background-color: #242c35;
   background-image: url("../img/casa-doro/casa-doro-background.png");
   background-size: 1920px;
   background-attachment: fixed; }
-  .casa-doro-body .fa-angle-down {
+  .casa-doro-body .fa-angle-down,
+  .casa-doro-body #bottom .fa-angle-down {
     color: #ffffff; }
-  .casa-doro-body .fa-angle-down:hover {
+  .casa-doro-body .fa-angle-down:hover,
+  .casa-doro-body #bottom .fa-angle-down:hover {
     color: rgba(255, 255, 255, 0.55); }
   .casa-doro-body .fa-linkedin,
   .casa-doro-body .fa-twitter,
   .casa-doro-body .fa-behance,
-  .casa-doro-body .fa-youtube {
+  .casa-doro-body .fa-youtube,
+  .casa-doro-body #bottom .fa-linkedin,
+  .casa-doro-body #bottom .fa-twitter,
+  .casa-doro-body #bottom .fa-behance,
+  .casa-doro-body #bottom .fa-youtube {
     color: #ffffff;
     background: #000000; }
   .casa-doro-body .fa-linkedin:hover,
   .casa-doro-body .fa-twitter:hover,
   .casa-doro-body .fa-behance:hover,
-  .casa-doro-body .fa-youtube:hover {
+  .casa-doro-body .fa-youtube:hover,
+  .casa-doro-body #bottom .fa-linkedin:hover,
+  .casa-doro-body #bottom .fa-twitter:hover,
+  .casa-doro-body #bottom .fa-behance:hover,
+  .casa-doro-body #bottom .fa-youtube:hover {
     color: #000000;
     background: #ffffff; }
 

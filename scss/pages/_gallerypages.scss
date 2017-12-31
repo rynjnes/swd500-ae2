@@ -176,6 +176,10 @@
         color: $kanyegold;
         background: $kanyered;
 
+        #bottom {
+                background: $kanyered;
+        }
+
         .fa-angle-down {
                 color: $kanyegold;
         }
@@ -368,7 +372,8 @@
         }
 }
 
-.casa-doro-body {
+.casa-doro-body,
+.casa-doro-body #bottom {
         color: $white;
         background-color: $background;
         background-image: url("../img/casa-doro/casa-doro-background.png");
