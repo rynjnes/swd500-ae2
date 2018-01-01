@@ -6,8 +6,7 @@
         <title>Ryan Jones - Design & Developer</title>
         <link rel="stylesheet" href="../css/main.css">
         <link rel="icon" type="image/svg+xml" href="../img/logos/favicon.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.mi n.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <style>
                 .spacer {
                         height: 25px;
@@ -21,13 +20,14 @@
 </head>
 
 <body id="gallery-body" class="gutenberg-body">
+        <div id="slide"></div>
         <div id="wrapper">
                 <div class="row col-12" id="top">
                         <div id="nav">
                                 <div class="row">
                                         <div class="col col-12">
-                                                <a href="index.html">
-                                                <img id="logo" src="../img/logos/logo.svg">
+                                                <a href="#" onclick="home()">
+                                                        <img id="logo" src="../img/logos/logo.svg" onmouseover="onHover();" onmouseout="offHover();">
                                                 </a>
                                         </div>
                                 </div>
@@ -64,7 +64,7 @@
                                         <figure class="fade" title="Macbook Mock Up">
                                                 <img class="grid-img" src="../img/gutenberg/gutenberg-1.png">
                                                 <figcaption>
-                                                        <h2 id="caption">Macbook Mock Up</h2>
+                                                        <h2 class="cap">Macbook Mock Up</h2>
                                                 </figcaption>
                                         </figure>
                                 </div>
@@ -76,7 +76,7 @@
                                                 <figure class="fade" title="">
                                                         <img class="grid-img" src="../img/gutenberg/gutenberg-2.png">
                                                         <figcaption id="block-fig-long">
-                                                                <h2 id="caption"></h2>
+                                                                <h2 class="cap"></h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
@@ -87,7 +87,7 @@
                                                 <figure class="fade" title="iPad Mock Up">
                                                         <img class="grid-img" src="../img/gutenberg/gutenberg-3.png">
                                                         <figcaption id="block-fig-reg">
-                                                                <h2 id="caption">iPad Mock Up</h2>
+                                                                <h2 class="cap">iPad Mock Up</h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
@@ -96,7 +96,7 @@
                                                         <figure class="fade" title="iPhone Mock Up's">
                                                                 <img class="grid-img" src="../img/gutenberg/gutenberg-4.png">
                                                                 <figcaption id="block-fig-square">
-                                                                        <h2 id="caption">iPhone Mock Up's</h2>
+                                                                        <h2 class="cap">iPhone Mock Up's</h2>
                                                                 </figcaption>
                                                         </figure>
 
@@ -105,7 +105,7 @@
                                                         <figure class="fade" title="Mobile Layout">
                                                                 <img class="grid-img" src="../img/gutenberg/gutenberg-5.png">
                                                                 <figcaption id="block-fig-square">
-                                                                        <h2 id="caption">Mobile Layout</h2>
+                                                                        <h2 class="cap">Mobile Layout</h2>
                                                                 </figcaption>
                                                         </figure>
 
@@ -115,10 +115,15 @@
                                                 <figure class="fade" title="Macbook Mock Up v2">
                                                         <img class="grid-img" src="../img/gutenberg/gutenberg-6.png">
                                                         <figcaption id="block-fig-reg">
-                                                                <h2 id="caption">Macbook Mock Up v2</h2>
+                                                                <h2 class="cap">Macbook Mock Up v2</h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
+                                </div>
+                                <div class="row col-12">
+                                        <div class="row col col-12 spacer"></div>
+                                        <button onclick="schoolboy()">◀</button>
+                                        <button onclick="casadoro()">▶</button>
                                 </div>
                         </div>
                         <div class="row col col-12 spacer"></div>
@@ -154,7 +159,7 @@
                 </div>
         </div>
         <script src="https://use.fontawesome.com/1a160ca5da.js "></script>
-        <script src="../scripts/main.js "></script>
+        <script src="../scripts/main.js"></script>
         <script src="../scripts/zenscroll.js "></script>
 </body>
 

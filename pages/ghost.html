@@ -6,8 +6,7 @@
         <title>Ryan Jones - Design & Developer</title>
         <link rel="stylesheet" href="../css/main.css">
         <link rel="icon" type="image/svg+xml" href="../img/logos/favicon.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.mi n.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <style>
                 .spacer {
                         height: 25px;
@@ -21,13 +20,14 @@
 </head>
 
 <body id="gallery-body" class="ghost-body">
+        <div id="slide"></div>
         <div id="wrapper">
                 <div class="row col-12" id="top">
                         <div id="nav">
                                 <div class="row">
                                         <div class="col col-12">
-                                                <a href="index.html">
-                                                <img id="logo" src="../img/logos/logo-invert.svg">
+                                                <a href="#" onclick="home()">
+                                                        <img id="logo" src="../img/logos/logo-invert.svg" onmouseover="onHoverInvert();" onmouseout="offHoverInvert();">
                                                 </a>
                                         </div>
                                 </div>
@@ -43,7 +43,6 @@
 
                                 <div class="row col col-12 spacer"></div>
                                 <p class="col-8 col offset-2 about-text">This was an Illustration I made listening to one of my favourite albums; ScHoolboy Q's - Oxymoron.<br> This is where the balaclava idea came from.
-
                                 </p>
 
                                 <div class="col-12 col">
@@ -62,10 +61,10 @@
 
                         <div class="row offset-2 col-8">
                                 <div class="col-12 block-1">
-                                        <figure class="fade" title="Caption">
+                                        <figure class="fade" title="Stamp Branding">
                                                 <img class="grid-img" src="../img/ghost/ghost-1.png">
                                                 <figcaption>
-                                                        <h2 id="caption">Stamp Branding</h2>
+                                                        <h2 class="cap">Stamp Branding</h2>
                                                 </figcaption>
                                         </figure>
                                 </div>
@@ -74,10 +73,10 @@
 
                                 <div class="row col-6">
                                         <div class="col-12 block-2">
-                                                <figure class="fade" title="Caption">
+                                                <figure class="fade" title="Event Flag">
                                                         <img class="grid-img" src="../img/ghost/ghost-2.png">
                                                         <figcaption id="block-fig-long">
-                                                                <h2 id="caption">Even Flag</h2>
+                                                                <h2 class="cap">Event Flag</h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
@@ -85,43 +84,46 @@
 
                                 <div class="row col-6">
                                         <div class="col col-12 block-3">
-                                                <figure class="fade" title="Caption">
+                                                <figure class="fade" title="Graffiti Branding">
                                                         <img class="grid-img" src="../img/ghost/ghost-3.png">
                                                         <figcaption id="block-fig-reg">
-                                                                <h2 id="caption">Graffiti Branding</h2>
+                                                                <h2 class="cap">Graffiti Branding</h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
                                         <div class="row col-12">
                                                 <div class="col col-6 block-4">
-                                                        <figure class="fade" title="Caption">
+                                                        <figure class="fade" title="Phone Case">
                                                                 <img class="grid-img" src="../img/ghost/ghost-4.png">
                                                                 <figcaption id="block-fig-square">
-                                                                        <h2 id="caption">Phone Case</h2>
+                                                                        <h2 class="cap">Phone Case</h2>
                                                                 </figcaption>
                                                         </figure>
 
                                                 </div>
                                                 <div class="col col-6 block-5">
-                                                        <figure class="fade" title="Caption">
-
+                                                        <figure class="fade" title="Cap Branding">
                                                                 <img class="grid-img" src="../img/ghost/ghost-5.png">
                                                                 <figcaption id="block-fig-square">
-                                                                        <h2 id="caption">Cap Branding</h2>
+                                                                        <h2 class="cap">Cap Branding</h2>
                                                                 </figcaption>
                                                         </figure>
 
                                                 </div>
                                         </div>
                                         <div class="row col-12 block-6">
-                                                <figure class="fade" title="Caption">
-
+                                                <figure class="fade" title="Sister Company Branding">
                                                         <img class="grid-img" src="../img/ghost/ghost-6.png">
                                                         <figcaption id="block-fig-reg">
-                                                                <h2 id="caption">Sister Company Branding</h2>
+                                                                <h2 class="cap">Sister Company Branding</h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
+                                </div>
+                                <div class="row col-12">
+                                        <div class="row col col-12 spacer"></div>
+                                        <button onclick="solar()">◀</button>
+                                        <button onclick="pixel()">▶</button>
                                 </div>
                         </div>
                         <div class="row col col-12 spacer"></div>
@@ -156,9 +158,9 @@
                         </div>
                 </div>
         </div>
-        <script src="https://use.fontawesome.com/1a160ca5da.js "></script>
-        <script src="../scripts/main.js "></script>
-        <script src="../scripts/zenscroll.js "></script>
+        <script src="https://use.fontawesome.com/1a160ca5da.js"></script>
+        <script src="../scripts/main.js"></script>
+        <script src="../scripts/zenscroll.js"></script>
 </body>
 
 </html>

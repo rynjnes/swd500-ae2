@@ -6,8 +6,7 @@
         <title>Ryan Jones - Design & Developer</title>
         <link rel="stylesheet" href="../css/main.css">
         <link rel="icon" type="image/svg+xml" href="../img/logos/favicon.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.mi n.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <style>
                 .spacer {
                         height: 25px;
@@ -21,13 +20,14 @@
 </head>
 
 <body id="gallery-body" class="schoolboy-body">
+        <div id="slide"></div>
         <div id="wrapper">
                 <div class="row col-12" id="top">
                         <div id="nav">
                                 <div class="row">
                                         <div class="col col-12">
-                                                <a href="index.html">
-                                                <img id="logo" src="../img/logos/logo.svg">
+                                                <a href="#" onclick="home()">
+                                                        <img id="logo" src="../img/logos/logo.svg" onmouseover="onHover();" onmouseout="offHover();">
                                                 </a>
                                         </div>
                                 </div>
@@ -70,7 +70,7 @@
                                                 <figure class="fade" title="Quincy MattHew Hanley.">
                                                         <img class="grid-img" src="../img/schoolboy/schoolboy-2.png">
                                                         <figcaption id="block-fig-long">
-                                                                <h2 id="caption">Quincy MattHew Hanley.<br> A.k.a ScHoolboy Q.</h2>
+                                                                <h2 class="cap">Quincy MattHew Hanley.<br> A.k.a ScHoolboy Q.</h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
@@ -81,7 +81,7 @@
                                                 <figure class="fade" title="ScHoolboy Q - Oxymoron">
                                                         <img class="grid-img" src="../img/schoolboy/schoolboy-3.png">
                                                         <figcaption id="block-fig-reg">
-                                                                <h2 id="caption"></h2>
+                                                                <h2 class="cap"></h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
@@ -92,7 +92,7 @@
                                                                 <figure class="fade" title="Listen to Oxymoron">
                                                                         <img class="grid-img" src="../img/schoolboy/schoolboy-4.png">
                                                                         <figcaption id="block-fig-square">
-                                                                                <h2 id="caption">►</h2>
+                                                                                <h2 class="cap">►</h2>
                                                                         </figcaption>
                                                                 </figure>
                                                         </div>
@@ -103,7 +103,7 @@
                                                                 <figure class="fade" title="Listen to Blank Face">
                                                                         <img class="grid-img" src="../img/schoolboy/schoolboy-5.png">
                                                                         <figcaption id="block-fig-square">
-                                                                                <h2 id="caption">►</h2>
+                                                                                <h2 class="cap">►</h2>
                                                                         </figcaption>
                                                                 </figure>
                                                         </div>
@@ -114,10 +114,15 @@
                                                 <figure class="fade" title="ScHoolboy Q - Blank Face">
                                                         <img class="grid-img" src="../img/schoolboy/schoolboy-6.png">
                                                         <figcaption id="block-fig-reg">
-                                                                <h2 id="caption"></h2>
+                                                                <h2 class="cap"></h2>
                                                         </figcaption>
                                                 </figure>
                                         </div>
+                                </div>
+                                <div class="row col-12">
+                                        <div class="row col col-12 spacer"></div>
+                                        <button onclick="kanye()">◀</button>
+                                        <button onclick="gutenberg()">▶</button>
                                 </div>
                         </div>
                         <div class="row col col-12 spacer"></div>
@@ -153,7 +158,7 @@
                 </div>
         </div>
         <script src="https://use.fontawesome.com/1a160ca5da.js "></script>
-        <script src="../scripts/main.js "></script>
+        <script src="../scripts/main.js"></script>
         <script src="../scripts/zenscroll.js "></script>
 </body>
 

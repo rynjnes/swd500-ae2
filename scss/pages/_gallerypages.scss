@@ -1,3 +1,12 @@
+#slide {
+        width: 0%;
+        height: 275%;
+        z-index: 1000;
+        position: absolute;
+        transition: ease 0.75s;
+
+}
+
 .new-balance-body {
         color: $newbalance;
         background: $gunmetal;
@@ -192,16 +201,16 @@
         .fa-twitter,
         .fa-behance,
         .fa-youtube {
-                color: $kanyegold;
-                background: $kanyered;
+                color: $kanyered;
+                background: $kanyegold;
         }
 
         .fa-linkedin:hover,
         .fa-twitter:hover,
         .fa-behance:hover,
         .fa-youtube:hover {
-                color: $kanyered;
-                background: $kanyegold;
+                color: $kanyegold;
+                background: $kanyered;
         }
 }
 
@@ -221,16 +230,16 @@
         .fa-twitter,
         .fa-behance,
         .fa-youtube {
-                color: $white;
-                background: $gutenberg;
+                color: $gutenberg;
+                background: $white;
         }
 
         .fa-linkedin:hover,
         .fa-twitter:hover,
         .fa-behance:hover,
         .fa-youtube:hover {
-                color: $gutenberg;
-                background: $white;
+                color: $white;
+                background: $gutenberg;
         }
 }
 
@@ -292,7 +301,8 @@
         .fa-linkedin,
         .fa-twitter,
         .fa-behance,
-        .fa-youtube {
+        .fa-youtube,
+        button {
                 color: $white;
                 background: $boilingpoint;
         }
@@ -300,7 +310,8 @@
         .fa-linkedin:hover,
         .fa-twitter:hover,
         .fa-behance:hover,
-        .fa-youtube:hover {
+        .fa-youtube:hover,
+        button {
                 color: $boilingpoint;
                 background: $white;
         }
