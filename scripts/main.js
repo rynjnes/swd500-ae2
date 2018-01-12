@@ -8,7 +8,6 @@ $(document).ready(function () {
         });
 });
 
-
 var slide = document.getElementById("slide");
 var status = "closed";
 
@@ -24,7 +23,7 @@ function slider() {
 }
 
 function contact() {
-        slide.style.background = "#000";
+        slide.style.background = "#111";
         slider();
         window.setTimeout(function () {
                 window.location.href = "../pages/contact.html";
@@ -32,7 +31,7 @@ function contact() {
 }
 
 function about() {
-        slide.style.background = "#000";
+        slide.style.background = "#111";
         slider();
         window.setTimeout(function () {
                 window.location.href = "../pages/about.html";
@@ -40,7 +39,7 @@ function about() {
 }
 
 function home() {
-        slide.style.background = "#000";
+        slide.style.background = "#111";
         slider();
         window.setTimeout(function () {
                 window.location.href = "../pages/index.html";
@@ -121,7 +120,6 @@ function casadoro() {
                 window.location.href = "../pages/casa-doro.html";
         }, 1000);
 }
-
 
 function phoenix() {
         slide.style.background = "#ed3f47";

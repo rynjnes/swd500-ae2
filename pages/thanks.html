@@ -7,14 +7,16 @@
         <link rel="stylesheet" href="../css/main.css">
         <link rel="icon" type="image/svg+xml" href="../img/logos/favicon.png">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
         <style>
 
 
         </style>
 </head>
 
-<body>
+<body id="thanks">
         <div id="slide"></div>
+
         <div id="wrapper">
                 <div id="nav">
                         <div class="row col col-12 spacer"></div>
@@ -28,42 +30,20 @@
                         <div class="row col col-12 spacer"></div>
                 </div>
                 <div id="header">
-                        <div class="row tag col offset-2 col-8"><img class="tagline" src="../img/tags/contact.svg"></div>
-                        <div class="row col offset-2 about-div col-8">
-                                <p id="about-text">
-                                        If you need to get in touch with me in regards to my work feel free to fill out the contact form bellow. If you'd prefer a casual chat, shoot me a tweet!.
-                                </p>
-                        </div>
-                </div>
-
-                <div class="row col col-12 spacer"></div>
-                <div id="contact-form">
-                        <div id="form" class="col offset-2 col-8 ">
-                                <form id="contact" method="post" action="http://rynjnes.co.uk/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; document.charset = 'ISO-8859-1'; window.onbeforeunload = function () {document.charset=originalCharset;};">
-                                        Name
-                                        <br/>
-                                        <input name="Realname" class="form-element" />
-                                        <br/> Email
-                                        <br/>
-                                        <input name="Email" class="form-element" />
-                                        <br/> Message
-                                        <br/>
-                                        <textarea class="form-element" rows="3" name="Message"></textarea>
-                                        <br/>
-                                        <input type="submit" value="Send" />
-                                        <input type="hidden" name="recipient" value="support@rynjnes.co.uk" />
-                                        <input type="hidden" name="subject" value="Subject" />
-                                        <input type="hidden" name="redirect" value="../pages/thanks.html" />
-                                        <input type="hidden" name="missing_fields_redirect" value="../pages/error.html" />
-                                        <input type="hidden" name="required" value="Realname, Email, Message" />
-                                </form>
-                        </div>
-                </div>
-
-
-                <div id="footer">
+                        <div class="row col col-12 spacer"></div>
                         <div class="row col col-12 spacer"></div>
 
+
+                        <div class="row tag col offset-2 col-8"><img class="tagline" src="../img/tags/thank-you.svg"></div>
+                </div>
+                <div class="row col offset-2 about-div col-8">
+                        <p id="about-text">Your Messages was Successfully Delivered to me! I'll be in touch as soon as I can!</p>
+                </div>
+                <div class="row col col-12 spacer"></div>
+
+                <div class="row col col-12 spacer"></div>
+
+                <div id="footer">
                         <div class="row col offset-55 col-1 social-icons ">
                                 <div class="col social col-3 ">
                                         <a href="http://www.linkedin.com/in/rynjnes " class="social-icon "> <i class="fa fa-linkedin "></i></a>
@@ -79,13 +59,24 @@
                                 </div>
 
                         </div>
-
-                        <div class="row col col-12 spacer"></div>
                 </div>
         </div>
+
+        <div class="row col col-12 spacer "></div>
+
         <script src="https://use.fontawesome.com/1a160ca5da.js "></script>
         <script src="../scripts/main.js"></script>
         <script src="../scripts/zenscroll.js "></script>
+        <script>
+                jQuery(document).ready(function() {
+                        jQuery('.skillbar').each(function() {
+                                jQuery(this).find('.skillbar-bar').animate({
+                                        width: jQuery(this).attr('data-percent')
+                                }, 2500);
+                        });
+                });
+
+        </script>
 </body>
 
 </html>

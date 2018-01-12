@@ -43,7 +43,7 @@
 
 .fa-linkedin {
   padding: 10px 12px;
-  color: #242c35;
+  color: #111;
   background-color: #ffffff; }
 
 .fa-linkedin:hover {
@@ -52,7 +52,7 @@
 
 .fa-twitter {
   padding: 10px 11px;
-  color: #242c35;
+  color: #111;
   background-color: #ffffff; }
 
 .fa-twitter:hover {
@@ -61,7 +61,7 @@
 
 .fa-behance {
   padding: 10px 9.5px;
-  color: #242c35;
+  color: #111;
   background-color: #ffffff; }
 
 .fa-behance:hover {
@@ -70,7 +70,7 @@
 
 .fa-youtube {
   padding: 10px 11.5px;
-  color: #242c35;
+  color: #111;
   background-color: #ffffff; }
 
 .fa-youtube:hover {
@@ -251,7 +251,7 @@ figcaption {
   transition: ease 0.25s; }
 
 .about-link {
-  color: #242c35;
+  color: #111;
   background: #ffffff;
   font-weight: 400;
   text-decoration: none;
@@ -389,7 +389,7 @@ figcaption {
   -moz-border-radius-bottomleft: 3px;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
-  color: #242c35; }
+  color: #111; }
 
 .skillbar-bar {
   height: 35px;
@@ -405,7 +405,7 @@ figcaption {
   font-size: 11px;
   height: 35px;
   line-height: 35px;
-  color: #242c35; }
+  color: #111; }
 
 .col {
   float: left;
@@ -938,7 +938,7 @@ figcaption {
 .casa-doro-body,
 .casa-doro-body #bottom {
   color: #ffffff;
-  background-color: #242c35;
+  background-color: #111;
   background-image: url("../img/casa-doro/casa-doro-background.png");
   background-size: 1920px;
   background-attachment: fixed; }
@@ -971,7 +971,7 @@ figcaption {
 
 .ghost-body {
   color: #000000;
-  background-color: #242c35;
+  background-color: #111;
   background-image: url("../img/ghost/ghost-background.png");
   background-attachment: fixed; }
   .ghost-body .fa-angle-down {
@@ -1037,9 +1037,37 @@ form {
 #contact {
   width: 100%; }
 
+#thanks {
+  background: #49e335; }
+  #thanks .fa-linkedin,
+  #thanks .fa-twitter,
+  #thanks .fa-behance,
+  #thanks .fa-youtube {
+    color: #49e335; }
+  #thanks .fa-linkedin:hover,
+  #thanks .fa-twitter:hover,
+  #thanks .fa-behance:hover,
+  #thanks .fa-youtube:hover {
+    color: #ffffff;
+    background: #49e335; }
+
+#error {
+  background: #ed294a; }
+  #error .fa-linkedin,
+  #error .fa-twitter,
+  #error .fa-behance,
+  #error .fa-youtube {
+    color: #ed294a; }
+  #error .fa-linkedin:hover,
+  #error .fa-twitter:hover,
+  #error .fa-behance:hover,
+  #error .fa-youtube:hover {
+    color: #ffffff;
+    background: #ed294a; }
+
 body {
   margin: 0 auto;
-  background: #242c35;
+  background: #111;
   font-family: "Rokkitt", serif;
   text-align: center;
   animation: fadein 2s;
