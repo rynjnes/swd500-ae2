@@ -26,11 +26,12 @@
 @import 'pages/about';
 @import 'pages/gallerypages';
 @import 'pages/contact';
+@import 'pages/video';
 
 
 body {
         margin: 0 auto;
-        background: $background;
+        background: $black;
         font-family: $rokkitt;
         text-align: center;
         animation: fadein 2s;
