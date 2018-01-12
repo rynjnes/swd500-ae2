@@ -46,6 +46,10 @@ $col_1_width: $max_width / $grid_cols;
         width: $col_1_width * 5;
 }
 
+.col-55 {
+        width: $col_1_width * 5.5;
+}
+
 .col-6 {
         width: $col_1_width * 6;
 }

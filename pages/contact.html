@@ -6,89 +6,146 @@
         <title>Ryan Jones - Design & Developer</title>
         <link rel="stylesheet" href="../css/main.css">
         <link rel="icon" type="image/svg+xml" href="../img/logos/favicon.png">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.mi n.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <style>
 
+
+        </style>
 </head>
 
 <body>
+        <!--VIDEO BG-->
+
+        <div class="video-background">
+                <div class="video-foreground">
+                        <iframe src="https://www.youtube.com/embed/O5x4VNwRYAQ?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+        </div>
+
+        <!--SLIDER-->
+
+        <div id="slide"></div>
+
+        <!--MAIN WRAPPER-->
+
         <div id="wrapper">
+
+                <!--NAVIGATION-->
+
                 <div id="nav">
+
+                        <!--SPACER-->
+
                         <div class="row col col-12 spacer"></div>
+
+                        <!--LOGO ROW-->
                         <div class="row">
+
+                                <!--12 COLUMN-->
+
                                 <div class="col col-12">
-                                        <a href="../pages/index.html">
-                                                <img id="logo" src="../img/logos/logo.svg">
+
+                                        <!--LOGO-->
+
+                                        <a href="#" onclick="home()">
+                                                <img id="logo" src="../img/logos/logo.svg" onmouseover="onHover();" onmouseout="offHover();">
                                         </a>
+
                                 </div>
                         </div>
+
+                        <!--SPACER-->
                         <div class="row col col-12 spacer"></div>
                 </div>
+
+                <!--HEADER-->
+
                 <div id="header">
+
+                        <!--8 COL OFFSET 2 CONTACT IMAGE-->
                         <div class="row tag col offset-2 col-8"><img class="tagline" src="../img/tags/contact.svg"></div>
+
+                        <!--8 COL OFFSET 2 CONTACT TEXT-->
                         <div class="row col offset-2 about-div col-8">
                                 <p id="about-text">
                                         If you need to get in touch with me in regards to my work feel free to fill out the contact form bellow. If you'd prefer a casual chat, shoot me a tweet!.
                                 </p>
                         </div>
+
                 </div>
 
+                <!--SPACER-->
+
                 <div class="row col col-12 spacer"></div>
+
+                <!--CONTACT FORM-->
+
                 <div id="contact-form">
+
+                        <!--COL 8 OFFSET 2 FORM-->
+
                         <div id="form" class="col offset-2 col-8 ">
-                                <form id="contact">
+                                <form id="contact" method="post" action="http://rynjnes.co.uk/cgi-bin/FormMail.pl" accept-charset="ISO-8859-1" onsubmit="var originalCharset = document.charset; document.charset = 'ISO-8859-1'; window.onbeforeunload = function () {document.charset=originalCharset;};">
                                         Name
-                                        <br />
-                                        <input name="realname" class="form-element" />
                                         <br/>
-                                        <br/>Email
-                                        <br>
-                                        <input name="email" class="form-element" />
+                                        <input name="Realname" class="form-element" />
+                                        <br/> Email
                                         <br/>
+                                        <input name="Email" class="form-element" />
                                         <br/> Message
                                         <br/>
                                         <textarea class="form-element" rows="3" name="Message"></textarea>
                                         <br/>
-                                        <br/>
-                                        <input type="submit" value="Send" class="btn" />
+                                        <input type="submit" value="Send" />
                                         <input type="hidden" name="recipient" value="support@rynjnes.co.uk" />
                                         <input type="hidden" name="subject" value="Subject" />
-                                        <input type="hidden" name="redirect" value="/thanks.html" />
-                                        <input type="hidden" name="missing_fields_redirect" value="/error.html" />
-                                        <input type="hidden" name="required" value="realname,email,Message" />
+                                        <input type="hidden" name="redirect" value="../pages/thanks.html" />
+                                        <input type="hidden" name="missing_fields_redirect" value="../pages/error.html" />
+                                        <input type="hidden" name="required" value="Realname, Email, Message" />
                                 </form>
                         </div>
+
                 </div>
 
+                <!--FOOTER-->
 
                 <div id="footer">
                         <div class="row col col-12 spacer"></div>
 
                         <div class="row col offset-55 col-1 social-icons ">
+
+                                <!--LINKED IN-->
+
                                 <div class="col social col-3 ">
                                         <a href="http://www.linkedin.com/in/rynjnes " class="social-icon "> <i class="fa fa-linkedin "></i></a>
                                 </div>
+
+                                <!--TWITTER-->
+
                                 <div class="col social col-3 ">
                                         <a href="https://twitter.com/rynjnesmedia " class="social-icon "> <i class="fa fa-twitter "></i></a>
                                 </div>
+
+                                <!--BEHANCE-->
+
                                 <div class="col social col-3 ">
                                         <a href="https://www.behance.net/RyanJnes " class="social-icon "> <i class="fa fa-behance "></i></a>
                                 </div>
+
+                                <!--YOUTUBE-->
+
                                 <div class="col social col-3 ">
                                         <a href="https://www.youtube.com/c/RyanJonesGraphics " class="social-icon "> <i class="fa fa-youtube "></i></a>
                                 </div>
 
                         </div>
-                        <div class="row col col-12 spacer "></div>
 
+                        <div class="row col col-12 spacer"></div>
                 </div>
         </div>
-
-
-
         <script src="https://use.fontawesome.com/1a160ca5da.js "></script>
-        <script src="/scripts/main.js "></script>
-        <script src="/scripts/zenscroll.js "></script>
+        <script src="../scripts/main.js"></script>
+        <script src="../scripts/zenscroll.js "></script>
 </body>
 
 </html>

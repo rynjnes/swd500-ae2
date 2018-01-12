@@ -11,22 +11,62 @@
 </head>
 
 <body>
+
+        <!--VIDEO BG-->
+
+        <div class="video-background">
+                <div class="video-foreground">
+                        <iframe src="https://www.youtube.com/embed/rVVv5kUoxME?controls=0&showinfo=0&rel=0&autoplay=1&loop=1&playlist=W0LHTWG-UmQ" frameborder="0" allowfullscreen></iframe>
+                </div>
+        </div>
+
+        <!--SLIDER-->
+
+        <div id="slide"></div>
+
+        <!--WRAPPER-->
+
         <div id="wrapper">
+
+                <!--NAVIGATION-->
+
                 <div id="nav">
+
+                        <!--SPACER-->
+
                         <div class="row col col-12 spacer"></div>
+
+                        <!--LOGO ROW-->
                         <div class="row">
+
+                                <!--12 COLUMN-->
+
                                 <div class="col col-12">
-                                        <a href="../pages/index.html">
-                                                <img id="logo" src="../img/logos/logo.svg">
+
+                                        <!--LOGO-->
+
+                                        <a href="#" onclick="home()">
+                                                <img id="logo" src="../img/logos/logo.svg" onmouseover="onHover();" onmouseout="offHover();">
                                         </a>
+
                                 </div>
                         </div>
+
+                        <!--SPACER-->
+
                         <div class="row col col-12 spacer"></div>
                 </div>
                 <div id="header">
+
+                        <!--8 COL OFFSET 2 ABOUT IMAGE-->
+
                         <div class="row tag col offset-2 col-8"><img class="tagline" src="../img/tags/about.svg"></div>
                 </div>
+
+                <!--8 COL OFFSET 2 ABOUT TEXT-->
+
                 <div class="row col offset-2 about-div col-8">
+
                         <p id="about-text">Hi There, I'm Ryan. A 20 Year Old Web Design & Development Student who is Studying at <a class="about-link" href="https://www.solent.ac.uk/">&nbsp;Southampton Solent University.&nbsp;</a>
                                 <br>
                                 <br>During my time in Secondary School, I picked up the hobby of <a class="about-link" href="https://soundcloud.com/ryyyy">&nbsp;Music Production,&nbsp;</a> a hobby of which I am still heavily invested in. This lead me to creating my own album art and and various other pieces for my music, from which I realised I enjoyed making just as much.
@@ -34,20 +74,21 @@
                                 <br>From this, I started Graphics Design on <a class="about-link" href="https://www.youtube.com/c/RyanJonesGraphics">&nbsp;YouTube&nbsp;</a> within The Gaming Community, as well as setting up a Personal Clothing Brand as well as a variety of smaller brands. I delved much further into the Design world by taking an IT course at College allowing me to find my perfect niche in the industry of which is IT & Graphics.
                                 <br>
                                 <br>I enjoy creating
-                                <a class="about-link" href="../pages/index.html">&nbsp;Illustrations,&nbsp;</a>
-                                <a class="about-link" href="../pages/index.html">&nbsp;Websites&nbsp;</a> and various other branding elements and love working with new people.
+                                <a class="about-link" href="#gallery">&nbsp;Illustrations,&nbsp;</a>
+                                <a class="about-link" href="#gallery">&nbsp;Websites&nbsp;</a> and various other branding elements and love working with new people.
                                 <br>
                                 <br>
                         </p>
                 </div>
                 <div class="row col col-12 spacer"></div>
 
+                <!--SKILLS-->
+
                 <div id="skills">
                         <div class="row col col-12">
                                 <img class="gallery-heading" src="../img/tags/skills.svg">
                         </div>
                         <div class="row col col-12 spacer"></div>
-
                         <div class="row col offset-2 col-8">
                                 <div class="skillbar clearfix" data-percent="100%">
                                         <div class="skillbar-title"><span>HTML</span></div>
@@ -88,6 +129,7 @@
                 </div>
                 <div class="row col col-12 spacer"></div>
 
+                <!--WHAT I DO-->
 
                 <div id="what-i-do">
                         <div class="row col col-12">
@@ -117,33 +159,52 @@
                         </div>
                 </div>
 
+                <!--SPACER-->
 
                 <div class="row col col-12 spacer"></div>
 
+                <!--FOOTER-->
+
                 <div id="footer">
+                        <div class="row col col-12 spacer"></div>
+
                         <div class="row col offset-55 col-1 social-icons ">
+
+                                <!--LINKED IN-->
+
                                 <div class="col social col-3 ">
                                         <a href="http://www.linkedin.com/in/rynjnes " class="social-icon "> <i class="fa fa-linkedin "></i></a>
                                 </div>
+
+                                <!--TWITTER-->
+
                                 <div class="col social col-3 ">
                                         <a href="https://twitter.com/rynjnesmedia " class="social-icon "> <i class="fa fa-twitter "></i></a>
                                 </div>
+
+                                <!--BEHANCE-->
+
                                 <div class="col social col-3 ">
                                         <a href="https://www.behance.net/RyanJnes " class="social-icon "> <i class="fa fa-behance "></i></a>
                                 </div>
+
+                                <!--YOUTUBE-->
+
                                 <div class="col social col-3 ">
                                         <a href="https://www.youtube.com/c/RyanJonesGraphics " class="social-icon "> <i class="fa fa-youtube "></i></a>
                                 </div>
 
                         </div>
+
+                        <div class="row col col-12 spacer"></div>
                 </div>
         </div>
 
         <div class="row col col-12 spacer "></div>
 
-        <script src="https://use.fontawesome.com/1a160ca5da.js "></script>
-        <script src="/scripts/main.js "></script>
-        <script src="/scripts/zenscroll.js "></script>
+        <script src="https://use.fontawesome.com/1a160ca5da.js"></script>
+        <script src="../scripts/main.js"></script>
+        <script src="../scripts/zenscroll.js"></script>
         <script>
                 jQuery(document).ready(function() {
                         jQuery('.skillbar').each(function() {

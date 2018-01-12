@@ -39,4 +39,21 @@
 
                 }
         }
+
+        #main-page {
+                width: 60%;
+        }
+
+        #gallery-body {
+                .col-8 {
+                        width: $col_1_width * 11;
+                }
+                .offset-2 {
+                        margin-left: $col_1_width / 2;
+                }
+                .block-4,
+                .block-5 {
+                        width: $col_1_width * 12 !important;
+                }
+        }
 }
